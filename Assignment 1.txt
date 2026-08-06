@@ -1,0 +1,47 @@
+Q 1
+1. 
+Frontend Development:
+
+The frontend is everything the customer sees and interacts with Homepage with products, Search bar, Product images and descriptions, Shopping cart and Checkout page.
+
+Backend Development:
+
+The backend performs tasks that users cannot see Stores product information in a database, Checks product availability, Processes payments, Manages customer accounts and Sends order confirmation emails.
+
+Full-Stack Development:
+
+A full-stack developer works on both the frontend and backend.
+
+Example: While building the shopping website, a full-stack developer:
+
+->Designs the product page (frontend).
+->Creates the API to fetch product details (backend).
+->Connects the webpage to the database so products appear correctly.
+->Implements user login and order processing.
+
+Q 2
+
+
+                         CLIENT-SERVER MODEL
+
++-------------------+         HTTP Request         +----------------------+
+|                   | ---------------------------> |                      |
+|      Client       |                              |        Server        |
+| (Web Browser/App) | <--------------------------- | (Web Application)   |
+|                   |        HTTP Response         |                      |
++-------------------+                              +----------+-----------+
+                                                              |
+                                                              |
+                                                     Database Query
+                                                              |
+                                                              v
+                                                  +----------------------+
+                                                  |      Database        |
+                                                  | (MySQL, MongoDB,     |
+                                                  | PostgreSQL, etc.)    |
+                                                  +----------------------+
+
+Q 3
+
+
+      
