@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px #aaa;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 250px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 3px #aaa;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+/* Different box shadows */
+
+.card1 {
+    box-shadow: 5px 5px 10px #999;
+}
+
+.card2 {
+    box-shadow: 0 5px 15px #888;
+}
+
+.card3 {
+    box-shadow: 5px 5px 20px #777;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px #666;
+}

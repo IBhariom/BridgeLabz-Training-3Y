@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 150px;
+    background-color: white;
+    border-width: 4px;
+    border-color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.box:hover {
+    border-color: red;
+}
+
+.solid {
+    border-style: solid;
+    padding: 20px;
+}
+
+.dashed {
+    border-style: dashed;
+    padding: 30px;
+}
+
+.double {
+    border-style: double;
+    padding: 15px;
+}
+
+.groove {
+    border-style: groove;
+    padding: 25px;
+}
+
+.rounded {
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+}
