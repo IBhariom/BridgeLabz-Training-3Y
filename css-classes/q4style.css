@@ -1,0 +1,54 @@
+
+p {
+    color: #333;
+}
+
+
+.box {
+    background: lightblue;
+    padding: 15px;
+}
+
+
+#special {
+    background: lightgreen;
+    padding: 15px;
+}
+
+
+a[href="https://google.com"] {
+    color: red;
+}
+
+.combinators div p {
+    color: blue;
+}
+
+.combinators > p {
+    background: lightyellow;
+}
+
+.combinators div + p {
+    color: green;
+}
+
+.combinators div ~ p {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin: 8px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    background: #333;
+    color: white;
+}
+

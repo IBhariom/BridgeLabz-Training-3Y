@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #eee;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    width: 200px;
+}
+
+
+a:hover {
+    background: blue;
+    color: white;
+}
+
+
+button:focus {
+    background: green;
+    color: white;
+}
+
+button:active {
+    background: red;
+}
+
+
+li:nth-child(2) {
+    background: yellow;
+}
+
